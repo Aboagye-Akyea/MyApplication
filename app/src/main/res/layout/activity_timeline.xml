@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_timeline"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    tools:context="com.example.kofiaboagyemac.instaclass_android.TimelineActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <ImageView
+            app:srcCompat="@drawable/imgres"
+            android:id="@+id/imageView20"
+            android:layout_height="107dp"
+            android:layout_width="107dp" />
+
+        <TextView
+            android:text=" Kofi Aboagye-Akyea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="18sp"
+            android:layout_marginTop="10px" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/search"
+        android:id="@+id/imageView21"
+        android:scaleType="centerCrop"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="1"
+        android:columnCount="6">
+
+        <ImageView
+            app:srcCompat="@drawable/like"
+            android:id="@+id/imageView20"
+            android:scaleType="centerCrop"
+            android:layout_height="50dp"
+            android:layout_width="50dp" />
+
+        <ImageView
+            app:srcCompat="@drawable/comment"
+            android:id="@+id/imageView22"
+            android:scaleType="centerCrop"
+            android:layout_height="50dp"
+            android:layout_width="50dp" />
+
+
+    </GridLayout>
+
+</LinearLayout>
+
