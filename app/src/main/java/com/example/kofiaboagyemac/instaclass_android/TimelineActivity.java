@@ -2,6 +2,7 @@ package com.example.kofiaboagyemac.instaclass_android;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 
 public class TimelineActivity extends AppCompatActivity {
 
@@ -10,4 +11,5 @@ public class TimelineActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timeline);
     }
+
 }

@@ -1,65 +1,379 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_timeline"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
     tools:context="com.example.kofiaboagyemac.instaclass_android.TimelineActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawHorizontalTrack="true">
 
-    <LinearLayout
-        android:orientation="horizontal"
+
+
+
+    <!--<HorizontalScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:scrollbarSize="0dp">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical" >-->
+
+            <!--<LinearLayout-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="@android:color/background_light"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:scrollbarAlwaysDrawHorizontalTrack="true"-->
+                <!--android:scrollbarDefaultDelayBeforeFade="0"-->
+                <!--android:scrollbarFadeDuration="0"-->
+                <!--android:scrollbarSize="0dp">-->
+
+                <!--<LinearLayout-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:scrollbarDefaultDelayBeforeFade="0"-->
+                    <!--android:scrollbarFadeDuration="0"-->
+                    <!--android:scrollbarSize="0dp">-->
+
+                    <!--<ImageView-->
+                        <!--app:srcCompat="@drawable/new1"-->
+                        <!--android:id="@+id/imageView20"-->
+                        <!--android:layout_height="107dp"-->
+                        <!--android:layout_width="107dp"-->
+                        <!--android:paddingEnd="10dp"-->
+                        <!--android:paddingLeft="10dp"-->
+                        <!--android:paddingRight="10dp"-->
+                        <!--android:paddingTop="10dp" />-->
+
+                    <!--<TextView-->
+                        <!--android:text="New"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:id="@+id/textView4"-->
+                        <!--android:textSize="14sp"-->
+                        <!--android:layout_weight="5.20"-->
+                        <!--android:textAlignment="center" />-->
+
+                <!--</LinearLayout>-->
+
+
+
+                <!--<LinearLayout-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:scrollbarDefaultDelayBeforeFade="0"-->
+                    <!--android:scrollbarFadeDuration="0"-->
+                    <!--android:scrollbarSize="0dp">-->
+
+                    <!--<ImageView-->
+                        <!--app:srcCompat="@drawable/story3"-->
+                        <!--android:id="@+id/imageView20"-->
+                        <!--android:layout_height="107dp"-->
+                        <!--android:layout_width="107dp"-->
+                        <!--android:paddingEnd="10dp"-->
+                        <!--android:paddingLeft="10dp"-->
+                        <!--android:paddingRight="10dp"-->
+                        <!--android:paddingTop="10dp" />-->
+
+                    <!--<TextView-->
+                        <!--android:text="Bongs"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:id="@+id/textView4"-->
+                        <!--android:textSize="14sp"-->
+                        <!--android:layout_weight="5.20"-->
+                        <!--android:textAlignment="center" />-->
+
+                <!--</LinearLayout>-->
+
+
+                <!--<LinearLayout-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:scrollbarDefaultDelayBeforeFade="0"-->
+                    <!--android:scrollbarFadeDuration="0"-->
+                    <!--android:scrollbarSize="0dp">-->
+
+                    <!--<ImageView-->
+                        <!--app:srcCompat="@drawable/story4"-->
+                        <!--android:id="@+id/imageView20"-->
+                        <!--android:layout_height="107dp"-->
+                        <!--android:layout_width="107dp"-->
+                        <!--android:paddingEnd="10dp"-->
+                        <!--android:paddingLeft="10dp"-->
+                        <!--android:paddingRight="10dp"-->
+                        <!--android:paddingTop="10dp" />-->
+
+                    <!--<TextView-->
+                        <!--android:text="Emmanuel"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:id="@+id/textView4"-->
+                        <!--android:textSize="14sp"-->
+                        <!--android:layout_weight="5.20"-->
+                        <!--android:textAlignment="center" />-->
+
+                <!--</LinearLayout>-->
+
+
+                <!--<LinearLayout-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:scrollbarDefaultDelayBeforeFade="0"-->
+                    <!--android:scrollbarFadeDuration="0"-->
+                    <!--android:scrollbarSize="0dp">-->
+
+                    <!--<ImageView-->
+                        <!--app:srcCompat="@drawable/user"-->
+                        <!--android:id="@+id/imageView20"-->
+                        <!--android:layout_height="107dp"-->
+                        <!--android:layout_width="107dp"-->
+                        <!--android:paddingEnd="10dp"-->
+                        <!--android:paddingLeft="10dp"-->
+                        <!--android:paddingRight="10dp"-->
+                        <!--android:paddingTop="10dp" />-->
+
+                    <!--<TextView-->
+                        <!--android:text="Kofi"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:id="@+id/textView4"-->
+                        <!--android:textSize="14sp"-->
+                        <!--android:layout_weight="5.20"-->
+                        <!--android:textAlignment="center" />-->
+
+                <!--</LinearLayout>-->
+
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    <!--</HorizontalScrollView>-->
+
+
+    <android.support.design.widget.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:weightSum="1">
-        <ImageView
-            app:srcCompat="@drawable/imgres"
-            android:id="@+id/imageView20"
-            android:layout_height="107dp"
-            android:layout_width="107dp" />
+        android:layout_gravity="bottom"
+        design:menu="@menu/menu_navigation" />
 
-        <TextView
-            android:text=" Kofi Aboagye-Akyea"
-            android:layout_width="wrap_content"
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView4"
-            android:textSize="18sp"
-            android:layout_marginTop="10px" />
+            android:orientation="vertical" >
 
-    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/search"
-        android:id="@+id/imageView21"
-        android:scaleType="centerCrop"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+                <ImageView
+                    app:srcCompat="@drawable/user"
+                    android:id="@+id/imageView2"
+                    android:padding="10dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
 
-    <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:rowCount="1"
-        android:columnCount="6">
+                <TextView
+                    android:text="Kofi Aboagye-Akyea"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView3"
+                    android:textSize="18sp"
+                    android:layout_marginTop="50px"
+                    android:layout_weight="5.20" />
 
-        <ImageView
-            app:srcCompat="@drawable/like"
-            android:id="@+id/imageView20"
-            android:scaleType="centerCrop"
-            android:layout_height="50dp"
-            android:layout_width="50dp" />
+                </LinearLayout>
 
-        <ImageView
-            app:srcCompat="@drawable/comment"
-            android:id="@+id/imageView22"
-            android:scaleType="centerCrop"
-            android:layout_height="50dp"
-            android:layout_width="50dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                app:srcCompat="@drawable/postimage"
+                android:id="@+id/imageView22"
+                android:scaleType="centerCrop"
+                android:layout_height="240dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    app:srcCompat="@drawable/like"
+                    android:id="@+id/imageView23"
+                    android:layout_margin="5dp"
+                    android:layout_height="25dp"
+                    android:layout_width="25dp" />
+
+                <ImageView
+                    app:srcCompat="@drawable/comment1"
+                    android:id="@+id/imageView24"
+                    android:layout_margin="5dp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+            </LinearLayout>
+
+        </LinearLayout>
 
 
-    </GridLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1">
+                    <ImageView
+                        app:srcCompat="@drawable/user"
+                        android:id="@+id/imageView12"
+                        android:padding="10dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:text="Kofi Aboagye-Akyea"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView41"
+                            android:textSize="18sp"
+                            android:layout_marginTop="50px"
+                            android:layout_weight="5.20" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/search"
+                    android:id="@+id/imageView11"
+                    android:scaleType="centerCrop"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        app:srcCompat="@drawable/like"
+                        android:id="@+id/imageView31"
+                        android:layout_margin="5dp"
+                        android:layout_height="25dp"
+                        android:layout_width="25dp" />
+
+                    <ImageView
+                        app:srcCompat="@drawable/comment1"
+                        android:id="@+id/imageView42"
+                        android:layout_margin="5dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1">
+                    <ImageView
+                        app:srcCompat="@drawable/user"
+                        android:id="@+id/imageView20"
+                        android:padding="10dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="Kofi Aboagye-Akyea"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView4"
+                            android:textSize="18sp"
+                            android:layout_marginTop="50px"
+                            android:layout_weight="5.20" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/search"
+                    android:id="@+id/imageView26"
+                    android:scaleType="centerCrop"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        app:srcCompat="@drawable/like"
+                        android:id="@+id/imageView27"
+                        android:layout_margin="5dp"
+                        android:layout_height="25dp"
+                        android:layout_width="25dp" />
+
+                    <ImageView
+                        app:srcCompat="@drawable/comment1"
+                        android:id="@+id/imageView28"
+                        android:layout_margin="5dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
 
 </LinearLayout>
-
